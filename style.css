@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+header {
+    margin: 31px 0 0 40px;
+}
+
+.header-links {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 31px;
+}
+
+.header-button {
+    width: 122px;
+    height: 37px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #665AE1;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    width: 458px;
+    margin: 60px 90px 10px 100px;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    width: 480px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 101px;
+    color: #515151;
+}
+
+h2 {
+    width: 380px;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+    color: #515151; 
+}
+
+p {
+    width: 480px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #848484;
+    margin: 10px 0 30px 0;
+}
+
+.explore {
+    display: block;
+    width: 225px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    background-color: #ADFF00;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+a:hover {
+    font-size: 23px;
+    color: #ffd900;
+}
+
+.header-button:hover {
+    font-size: 22px;
+    background-color: #796cff;
+}
+
+.explore:hover {
+    font-size: 26px;
+    background-color: #c1ff3b;
+}
+
+.header-button:active {
+    font-size: 22px;
+    background-color: #5249b6;
+}
+
+.explore:active {
+    font-size: 26px;
+    background-color: #98de02;
+}
+
+@media screen and (max-width: 900px) {
+    header, p {
+        display: none;
+    }
+
+    img {
+        display: block;
+        width: 328px;
+        margin: 80px 30px 0px 30px;
+    }
+
+    h1 {
+        width: 380px;
+        font-size: 50px;
+        text-align: center;
+    }
+        
+    h2 {
+        width: 380px;
+        font-size: 33px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .explore {
+        width: 205px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 20px auto;
+    }
+}
