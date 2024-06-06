@@ -11,4 +11,4 @@
 </div>
 <h3>Exibição em Notebook e Celular</h2>
 <br>
-<img src="https://github.com/RenanMinichillo/schedule/blob/main/DevClub/Front-End/ASSETS/img/we-care.png?raw=true" width="60%"/>
+<img src="https://github.com/RenanMinichillo/we-care/blob/main/img/we-care.png?raw=true" width="60%"/>
